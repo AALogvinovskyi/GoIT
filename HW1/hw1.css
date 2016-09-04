@@ -1,0 +1,32 @@
+body{
+    background-color: #f1f3f3;
+    font-family: arial sans-serif
+}
+.wraper{
+    width: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+img{
+    width: 200px;
+    display: block; 
+    margin: 0 auto; 
+    border: 2px solid grey;
+}
+.intro{
+    color:#49494a;
+    font-size: 16px;
+}
+p,a{
+    margin-left: 30px;
+}
+div{
+    border-bottom:1px solid grey;
+    padding-bottom: 10px;
+}
+.feedback,.wraper{
+    border-bottom: none;
+}
