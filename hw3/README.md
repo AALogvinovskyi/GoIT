@@ -1,1 +1,0 @@
-# third hw for GoIT
