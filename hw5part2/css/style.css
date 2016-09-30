@@ -1,0 +1,49 @@
+body {
+margin: 50px;
+}
+
+th, td {
+	padding: 3px;
+	border: 5px solid black;
+	border-collapse: collapse;
+}
+
+td.white {
+color: white;
+}
+
+td.yellow {
+color: #ffeb4e;
+background: #ffeb4e;
+}
+
+td.blue {
+color: #004383;
+background: #004383;
+}
+
+td.black {
+color: #1a231f;
+background: #1a231f;
+}
+
+td.red {
+color: #ff502c;
+background: #ff502c;
+}
+
+td.left {
+	border-left: none;
+}
+
+td.top {
+	border-top: none;
+}
+
+td.bootom {
+	border-bottom: none;
+}
+
+td.right {
+	border-right: none;
+}

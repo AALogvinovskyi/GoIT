@@ -1,0 +1,174 @@
+body {
+	background: url('../img/backgraund.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.headerProp {
+	position: relative;
+	height: 37px;
+	position: relative;
+
+	line-height: 37px;
+	display: flex;
+	justify-content: flex-end;
+	background: url('../img/img-noise-361x370 (1).png');
+}
+
+.navigation li,
+.registOrEnter li {  
+	display: inline-block;
+}
+
+.navigation a,
+.registOrEnter a {
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font: 14px Tahoma, 'Helvetica Neue', Arial;
+	font-size: 14px;
+}
+
+.navigation a:hover {
+	background: #4eabda;
+	transition: background .2s ease-in-out; 
+}
+
+.registOrEnter a:hover {
+	background: linear-gradient(to bottom, rgb(125,185,232) 0%,rgb(46,122,196) 82%,rgb(30,87,153) 100%);
+}
+
+.registOrEnter li:last-child {
+	margin-right: 15px;
+}
+
+.navigation a:not(.fon):hover,
+.registOrEnter a:not(.fon):hover {
+	cursor: default;
+	background: none;
+}
+
+.flagImg, .lineImg {
+	position: absolute;
+	margin-top: 6px;
+	margin-left: -10px;
+	line-height: 30px;
+	height: 25px;
+}
+.flagImg {
+	margin-left: -15px
+}
+
+.propertyTextDecoration {
+	display: inline-block;
+	text-decoration: underline;
+}
+
+.headerTitle {
+	margin-top: 210px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+	width: 560px;
+	margin-bottom: 2px;
+	padding-top: 31px;
+	height: 62px;
+	color: white;
+	font: 24px Tahoma, 'Helvetica Neue', Arial;
+	background-color: rgba(0,0,0,.6);
+}
+
+.registerMeny {
+	margin-top: 2px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 140px;    
+	text-align: center;
+	width: 560px;
+	height: 650px;
+	background-color: rgba(0,0,0,.6);
+	font: 15px Tahoma, 'Helvetica Neue', Arial;
+}
+
+.registerMeny li {
+	height: 40px;
+	margin-bottom: 20px;
+	line-height: 40px;
+}
+
+input[type="text"],
+input[type="password"] {
+	color: #ccc;
+	font: 14px Tahoma, 'Helvetica Neue', Arial;
+	padding-left: 15px;
+	height: 35px;
+	width: 277px;
+	border-radius: 3px;
+	background: linear-gradient(to bottom, rgb(0,0,0) 0%,rgb(69,72,77) 100%);
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+	cursor: pointer;
+	box-shadow: inset 0px 0px 133px 8px rgba(27,82,136,.76), 0px 0px 38px 8px rgba(27,82,136,1);
+}
+
+span {
+	color: #ccc;
+	font: 14px Tahoma, 'Helvetica Neue', Arial;
+}
+
+input [type="checkbox"] {
+	text-decoration: none;
+	color: #ccc;
+	font: 14px Tahoma, 'Helvetica Neue', Arial;
+}
+
+.registerMeny li:first-child {
+	padding-top: 15px;
+}
+
+a.button {
+	height: 38px;
+	width: 275px;
+	line-height: 38px;
+	padding-right: 30px;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	border-radius: 6px;
+	border-left: 2px solid #4c68a9;
+	border-bottom: 2px solid #4c68a9;
+	background: linear-gradient(to bottom, rgb(30,87,153) 51%,rgb(45,68,120) 100%);
+} 
+
+.facebookLogo {
+	height: 33px;
+	float: left;
+	padding-top: 4px;
+	border-right: 1px solid #1f3c76; 
+} 
+
+strong {
+	font-weight:bold;
+}
+
+a.buttonRegist {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	width: 200px;
+
+	border-width: 2px 0;
+	border-style: solid none;
+	border-color: #67c6e6;
+	border-radius: 6px;
+	background: linear-gradient(to bottom, rgba(125,185,232,1) 0%,rgba(46,122,196,1) 82%,rgba(30,87,153,1) 100%);
+}
+
+.registerMeny li:last-child {
+	padding-left: 130px;
+	width: 290px;
+	font: 14px Tahoma, 'Helvetica Neue', Arial;;
+	color: #ccc;
+}
